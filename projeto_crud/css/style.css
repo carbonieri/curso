@@ -1,0 +1,64 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif verdana;
+    font-size: 12px;
+}
+
+
+
+
+*{
+   padding: 0;
+    margin: 0; 
+}
+
+h1 {
+    font-size: 50px;
+    color: #3700ff;
+    background-color: aquamarine;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+label {
+    padding-top: 10px;
+    font-size: 20px;
+}
+button {
+    width: 100px;
+    height: 40px;
+    border: 3px solid #3700ff;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: aquamarine;
+}
+
+fieldset {
+    width: 200px;
+    height: 100px;
+    padding: 5px;
+}
+div {
+    background-color: blue;
+}
+
+.select {
+    background-color: brown !important;
+}
+
+#mprioridade{
+    background-color: chartreuse;
+}
+
+/*
+    !important   Priorita
+    #           identificacao da ID
+    .           identificacao da class
+    div         identificacao da DIV
+*/

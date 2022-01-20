@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- To  inform the language that the browser does not need to translate -->
+<head>
+    <meta charset="UTF-8"> <!-- To inform the browser that this page shows accents -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 1 CRUD</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Cadastro de usuario</h1> <!-- Ajuda o google a encontrar a pagin. o titolo do livro. Somente um H1 deve ter por pagina -->
+
+<form action="php/cadastro.php" method="get"> <!-- Usar o GET para teste pois os dados mandados sao visualizados. Com o post esses dados sao escondidos -->
+    <label>
+        nome
+        <input type="text" name="nome">
+    </label>
+    <label>
+        email
+        <input type="text" name="email">
+    </label>
+    <label>
+        telefone
+        <input type="text" name="telefone">
+    </label>
+
+<fieldset>
+    <legend>Data e hora</legend>
+    <input type="date" name="data" id="">
+    <input type="time" name="hora" id="">
+</fieldset>
+
+<fieldset>
+    <legend>sexo</legend>
+    <label for="m">M</label>
+    <input type="radio" name="sexo" id="m" value="M" >
+    <label for="f">F</label>
+    <input type="radio" name="sexo" id="f" value="F" >
+</fieldset>
+<!-- tendo o mesmo nome sao dependentes -->
+
+<div class="select">
+<select name="opcao" id="">
+<option value="1">Op 1</option>
+<option value="2">Op 2</option>
+<option value="3">Op 3</option>
+<option value="4">Op 4</option>
+<option value="5">Op 5</option>
+<option value="6">Op 6</option>
+</select>
+</div>
+
+                                                                            <!-- <input type="submit" value="Cadastro input"> -->    
+                                                                            <!-- alternativa a botao, Botao eh mais facil mexer. -->
+<div class="select" id="mprioridade">
+ <button>Cadastro</button>
+</div>
+
+</form>
+
+<table>
+<caption>Titolo da tabela</caption>    
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Telefone</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>dado 1</td>
+            <td>dado 2</td>
+            <td>dado 3</td>
+        </tr>
+        <tr>
+            <td>dado 4</td>
+            <td>dado 5</td>
+            <td>dado 6</td>
+        </tr>
+    </tbody>
+    <tfoot>
+         <tr>
+            <td>dado 7</td>
+            <td>dado 8</td>
+            <td>dado 9</td>
+        </tr>
+    </tfoot>
+    </table>
+
+
+    <a href="desafio.php" target="_blank">Desafio</a>
+    <h2><a href="upload.php">Upload como fazer</a></h2>
+    <h2><a href="taboada.php">Upload como fazer</a></h2>
+    <h2><a href="primo.php">Upload como fazer</a></h2>
+    <h2><a href="parimpar.php">Upload como fazer</a></h2>
+    <h2><a href="trattino.php">Upload como fazer</a></h2>
+</body>
+</html>
